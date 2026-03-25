@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e3879a28-7282-4db9-bf02-d46fc40f9db1" name="remote">
+        <fileTransfer rootFolder="/chenyiming" accessType="SFTP" host="10.100.10.51" port="30756" sshConfigId="b49ad63c-8052-4195-ab53-07d164c5d2e4" sshConfig="root@10.100.10.51:30756 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

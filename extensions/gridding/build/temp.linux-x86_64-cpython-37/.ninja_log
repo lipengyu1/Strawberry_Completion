@@ -1,0 +1,4 @@
+# ninja log v5
+0	18393	1774336384131545961	/chenyiming/projects/PoinTr/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding_cuda.o	1f7b188d4a251134
+0	39180	1774336404931544798	/chenyiming/projects/PoinTr/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding_reverse.o	2bc3ce812b7426f
+0	39579	1774336405327544776	/chenyiming/projects/PoinTr/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding.o	e7735eab9071dad

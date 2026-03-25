@@ -1,0 +1,9 @@
+NAME: StrawberryDataset 
+
+DATA_PATH: /chenyiming/projects/PoinTr/data/strawberry
+
+N_POINTS: 1024
+GT_POINTS: 2048
+
+USE_NORMALS: False
+CARS: False

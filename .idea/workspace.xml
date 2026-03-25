@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32cdbfc7-2575-49e8-acb7-0881d75180b4" name="更改" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Strawberry_Completion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATASET.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KITTI_metric.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paper_related/PShapeNet55noise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paper_related/ShapeNet55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paper_related/parse_log.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paper_related/shapenet_parse_log.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/Completion3D_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/KITTI_models/FoldingNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/KITTI_models/GRNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/KITTI_models/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/KITTI_models/PoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/KITTI_models/TopNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/FoldingNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/GRNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/PoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/PoinTr_strawberry.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/SnowFlakeNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/PCN_models/TopNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/Projected_ShapeNet34_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/Projected_ShapeNet55_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/Projected_ShapeNetUnseen21_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/FoldingNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/GRNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/PoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet34_models/TopNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/FoldingNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/GRNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/PoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNet55_models/TopNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/AdaPoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/FoldingNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/GRNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/PoinTr.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/ShapeNetUnseen21_models/TopNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/Completion3D.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/KITTI.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/PCN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/PCNCars.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/PCNv2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/Projected_ShapeNet-34_noise.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/Projected_ShapeNet-55_noise.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/Projected_ShapeNet-Unseen21_noise.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/ShapeNet-34.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/ShapeNet-55.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/ShapeNet-Unseen21.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfgs/dataset_configs/Strawberry.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/KITTI/KITTI.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PCN/PCN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PCN/category.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/Projected_ShapeNet-34_noise/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/Projected_ShapeNet-34_noise/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/Projected_ShapeNet-55_noise/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/Projected_ShapeNet-55_noise/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/Projected_ShapeNet-Unseen21_noise/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/ShapeNet-34/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/ShapeNet-34/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/ShapeNet-55/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/ShapeNet-55/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ShapeNet55-34/ShapeNet-Unseen21/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/shapenet_synset_dict.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000000.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000001.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000002.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000003.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000004.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000005.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000006.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000007.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000008.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000009.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000010.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000011.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000012.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000013.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000014.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000015.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000016.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000017.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000018.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000019.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000020.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000021.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000022.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000023.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000024.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000025.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000026.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000027.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000028.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000029.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000030.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000031.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000032.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000033.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000034.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000035.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000036.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000037.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000038.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000039.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000040.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000041.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000042.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000043.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000044.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000045.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000046.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000047.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000048.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000049.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000050.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000051.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000052.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000053.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000054.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000055.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000056.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000057.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000058.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000059.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000060.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000061.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000062.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000063.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000064.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000065.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000066.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000067.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000068.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000069.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000070.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000071.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000072.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000073.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000074.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000075.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000076.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000077.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000078.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000079.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000080.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000081.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000082.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000083.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000084.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000085.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000086.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000087.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000088.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000089.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000090.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000091.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000092.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000093.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000094.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000095.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000096.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000097.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000098.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000099.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000100.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000101.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000102.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000103.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000104.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000105.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000106.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000107.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000108.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000109.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000110.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000111.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000112.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000113.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000114.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000115.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000116.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000117.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000118.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000119.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000120.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000121.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000122.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000123.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000124.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000125.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000126.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000127.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000128.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000129.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000130.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000131.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000132.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000133.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000134.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000135.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000136.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000137.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000138.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000139.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000140.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000141.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000142.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000143.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000144.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000145.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000146.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000147.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000148.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000149.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000150.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000151.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000152.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000153.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000154.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000155.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000156.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000157.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000158.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000159.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000160.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000161.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000162.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000163.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000164.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000165.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000166.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000167.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000168.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000169.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000170.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000171.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000172.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000173.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000174.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000175.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000176.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000177.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000178.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000179.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000180.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000181.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000182.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000183.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000184.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000185.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000186.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000187.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000188.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000189.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000190.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000191.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000192.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000193.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000194.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000195.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000196.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000197.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000198.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000199.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000200.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000201.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000202.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000203.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000204.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000205.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000206.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000207.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000208.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000209.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000210.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000211.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000212.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000213.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000214.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000215.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000216.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000217.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000218.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000219.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000220.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000221.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000222.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000223.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000224.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000225.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000226.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000227.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000228.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000229.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000230.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000231.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000232.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000233.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000234.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000235.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000236.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000237.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000238.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000239.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000240.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000241.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000242.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000243.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000244.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000245.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000246.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000247.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000248.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000249.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000250.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000251.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000252.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000253.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000254.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000255.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000256.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000257.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000258.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000259.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000260.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000261.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000262.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000263.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000264.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000265.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000266.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000267.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000268.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000269.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000270.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000271.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000272.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000273.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000274.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000275.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000276.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000277.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000278.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000279.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000280.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000281.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000282.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000283.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000284.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000285.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000286.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000287.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000288.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000289.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000290.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000291.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000292.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000293.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000294.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000295.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000296.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000297.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000298.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000299.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000300.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000301.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000302.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000303.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000304.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000305.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000306.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000307.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000308.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000309.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000310.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000311.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000312.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000313.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000314.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000315.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000316.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000317.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000318.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/train/000319.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000000.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000001.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000002.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000003.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000004.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000005.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000006.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000007.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000008.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000009.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000010.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000011.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000012.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000013.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000014.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000015.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000016.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000017.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000018.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000019.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000020.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000021.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000022.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000023.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000024.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000025.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000026.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000027.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000028.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000029.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000030.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000031.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000032.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000033.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000034.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000035.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000036.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000037.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000038.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000039.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000040.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000041.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000042.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000043.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000044.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000045.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000046.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000047.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000048.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000049.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000050.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000051.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000052.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000053.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000054.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000055.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000056.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000057.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000058.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000059.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000060.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000061.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000062.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000063.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000064.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000065.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000066.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000067.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000068.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000069.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000070.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000071.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000072.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000073.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000074.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000075.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000076.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000077.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000078.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/strawberry/val/000079.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Completion3DDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/KITTIDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/PCNDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Projected_ShapeNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/ShapeNet55Dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/data_transforms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/shapenet2pc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/strawberry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/airplane.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/input.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/sofa.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/PoinTr_strawberry/PCN_models/strawberry_pointr/20260324_083301.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/PoinTr_strawberry/PCN_models/strawberry_pointr/ckpt-best.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/PoinTr_strawberry/PCN_models/strawberry_pointr/ckpt-epoch-300.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/PoinTr_strawberry/PCN_models/strawberry_pointr/ckpt-last.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/PoinTr_strawberry/PCN_models/strawberry_pointr/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/lib.linux-x86_64-cpython-37/chamfer.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/chamfer.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/chamfer_cuda.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/chamfer_cuda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/dist/chamfer-2.0.0-py3.7-linux-x86_64.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/chamfer_dist/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/cubic_feature_sampling/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/cubic_feature_sampling/cubic_feature_sampling.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/cubic_feature_sampling/cubic_feature_sampling_cuda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/cubic_feature_sampling/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/cubic_feature_sampling/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/CDEMD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/emd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/emd_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/emd_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/emd/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/lib.linux-x86_64-cpython-37/gridding.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding_cuda.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/build/temp.linux-x86_64-cpython-37/gridding_reverse.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/dist/gridding-2.1.0-py3.7-linux-x86_64.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding_cuda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/gridding_reverse.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding_loss/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding_loss/gridding_distance.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding_loss/gridding_distance_cuda.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gridding_loss/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fig/VisResults.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fig/dataset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fig/pointr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/AdaPoinTr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/FoldingNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/GRNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PCN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PoinTr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/SnowFlakeNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/SnowFlakeNet_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/TopNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Transformer_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dgcnn_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/dist_train.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/inference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/test_strawberry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/AverageMeter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dist_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/registry.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lipengyu1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lipengyu1/Strawberry_Completion.git&quot;,
+    &quot;accountId&quot;: &quot;90674fb9-e68a-495f-bfc5-d88a1b0977b7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3BQu23d2wzTcbw8INgnnzxZWHuh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PythonProject/Strawberry_Completion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="32cdbfc7-2575-49e8-acb7-0881d75180b4" name="更改" comment="" />
+      <created>1774433404698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774433404698</updated>
+      <workItem from="1774433405802" duration="1397000" />
+      <workItem from="1774434830307" duration="1561000" />
+      <workItem from="1774439471983" duration="759000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1774434990679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774434990679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>
