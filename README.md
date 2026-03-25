@@ -63,14 +63,15 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 The strawberry point cloud dataset should be organized as follows:
 PointTr/
 ├── data/
-│      └── strawberry/
-│              ├── train/
-│              │      ├── 000000.npy
-│              │      └── b00001.npy
-│              └── val/
-│                      ├── 000000.npy
-│                      ├── 000001.npy
-│                      └── ...
+│   └── strawberry/
+│       ├── train/
+│       │   ├── 000000.npy
+│       │   └── b00001.npy
+│       │   └── ...
+│       └── val/
+│           ├── 000000.npy
+│           ├── 000001.npy
+│           └── ...
 └── ...
 ```
 
