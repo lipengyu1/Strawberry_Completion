@@ -75,6 +75,14 @@ PointTr/
 └── ...
 ```
 
+## Train&Test
+```bash
+bash ./scripts/train.sh 0   --config cfgs/PCN_models/PoinTr_strawberry.yaml   --exp_name strawberry_pointr
+```
+```bash
+bash ./scripts/test.sh 0 --config cfgs/PCN_models/PoinTr_strawberry.yaml --exp_name strawberry_pointr --ckpts /your/best/ckpt-best.pth
+```
+
 ## 🙏 Acknowledgements
 
 This project is based on the excellent work of **PoinTr**. We thank the authors for making their code publicly available.

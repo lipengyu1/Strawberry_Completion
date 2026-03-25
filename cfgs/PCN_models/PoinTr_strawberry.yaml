@@ -27,21 +27,21 @@ dataset : {
     _base_: cfgs/dataset_configs/Strawberry.yaml,
     others: {
       subset: 'train',
-      data_root: '/chenyiming/projects/PoinTr/data/strawberry'
+      data_root: '/your/path/Strawberry_Completion/data/strawberry'
     }
   },
   val : {
     _base_: cfgs/dataset_configs/Strawberry.yaml,
     others: {
       subset: 'val',
-      data_root: '/chenyiming/projects/PoinTr/data/strawberry'
+      data_root: '/your/path/Strawberry_Completion/data/strawberry'
     }
   },
   test : {
     _base_: cfgs/dataset_configs/Strawberry.yaml,
     others: {
       subset: 'val',
-      data_root: '/chenyiming/projects/PoinTr/data/strawberry'
+      data_root: '/your/path/Strawberry_Completion/data/strawberry'
     }
   }
 }

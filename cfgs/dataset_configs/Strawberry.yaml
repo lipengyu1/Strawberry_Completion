@@ -1,6 +1,6 @@
 NAME: StrawberryDataset 
 
-DATA_PATH: /chenyiming/projects/PoinTr/data/strawberry
+DATA_PATH: /your/path/Strawberry_Completion/data/strawberry
 
 N_POINTS: 1024
 GT_POINTS: 2048
