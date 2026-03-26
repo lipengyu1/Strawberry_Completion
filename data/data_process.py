@@ -3,18 +3,12 @@ import numpy as np
 import random
 import open3d as o3d
 
-# =========================
-# 路径配置
-# =========================
 input_dir = "/your/path/PoinTr/data/Complete_pointcloud_downsample"
 save_root = "/your/path/PoinTr/data/strawberry"
 
 train_ratio = 0.8
 seed = 42
 
-# =========================
-# HPR 单视角
-# =========================
 def hidden_point_removal(pc, camera=[0, 0, 2], radius=100):
     """
     pc: (N,3)
@@ -28,9 +22,6 @@ def hidden_point_removal(pc, camera=[0, 0, 2], radius=100):
     return visible
 
 
-# =========================
-# 统一归一化（关键！！）
-# =========================
 def normalize_pair(gt, partial):
     center = np.mean(gt, axis=0)
     scale = np.max(np.linalg.norm(gt - center, axis=1))
@@ -41,17 +32,11 @@ def normalize_pair(gt, partial):
     return gt, partial
 
 
-# =========================
-# 读取 ply
-# =========================
 def load_ply(path):
     pcd = o3d.io.read_point_cloud(path)
     return np.asarray(pcd.points).astype(np.float32)
 
 
-# =========================
-# 采样函数
-# =========================
 def random_sample(pc, n):
     N = pc.shape[0]
 
@@ -65,9 +50,6 @@ def random_sample(pc, n):
         return np.concatenate([pc, pc[idx]], axis=0)
 
 
-# =========================
-# 获取文件列表
-# =========================
 names = [f"strawberry{str(i).zfill(3)}" for i in range(1, 401)]
 
 random.seed(seed)
@@ -80,34 +62,23 @@ val_names = names[split_idx:]
 print(f"Train: {len(train_names)}, Val: {len(val_names)}")
 
 
-# =========================
-# 创建目录
-# =========================
 os.makedirs(os.path.join(save_root, "train"), exist_ok=True)
 os.makedirs(os.path.join(save_root, "val"), exist_ok=True)
 
 
-# =========================
-# 主处理函数
-# =========================
 def process_split(name_list, split):
     for idx, name in enumerate(name_list):
         ply_path = os.path.join(input_dir, f"{name}.ply")
 
-        # ===== 读取完整点云 =====
         gt = load_ply(ply_path)
 
-        # ===== HPR生成partial =====
         partial = hidden_point_removal(gt)
 
-        # ===== 采样 =====
         partial = random_sample(partial, 1024)
         gt = random_sample(gt, 2048)
 
-        # ===== 统一归一化（关键）=====
         gt, partial = normalize_pair(gt, partial)
 
-        # ===== 保存 =====
         data = {
             "partial": partial.astype(np.float32),
             "gt": gt.astype(np.float32)
@@ -119,10 +90,7 @@ def process_split(name_list, split):
         if idx % 50 == 0:
             print(f"[{split}] {idx}/{len(name_list)}")
 
-# =========================
-# 执行
-# =========================
 process_split(train_names, "train")
 process_split(val_names, "val")
 
-print("✅ 数据处理完成（PoinTr标准）")
+print("date process successful！")
