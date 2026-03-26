@@ -6,8 +6,8 @@ import open3d as o3d
 # =========================
 # 路径配置
 # =========================
-input_dir = "/chenyiming/projects/PoinTr/data/strawberry_pointcloud_2048"
-save_root = "/chenyiming/projects/PoinTr/data/strawberry"
+input_dir = "/your/path/PoinTr/data/Complete_pointcloud_downsample"
+save_root = "/your/path/PoinTr/data/strawberry"
 
 train_ratio = 0.8
 seed = 42
